@@ -1,6 +1,6 @@
 # FUTURE_CS_01 – Web Application Security Testing
 
-**Intern:** Rav Tej  
+**Intern:** Raviteja Vadla  
 **Internship:** Cyber Security Internship — Future Interns  
 **Task:** Web Application Security Testing  
 **Start Date:** 30 Aug 2025
