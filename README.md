@@ -16,14 +16,25 @@ Perform a vulnerability assessment on an intentionally vulnerable web app (Juice
 - `poc/` — optional proof-of-concept scripts or demo
 
 ## Tools used
-- OWASP ZAP
+- OWASP ZAP (2.15.0)
 - Burp Suite Community Edition
 - sqlmap (optional)
 - Nikto (optional)
-- Docker (for running Juice Shop / DVWA)
+- Docker Desktop(for running Juice Shop / DWA)
 
 ## Summary of findings
-(Will be updated after testing. See `report.pdf` for details.)
+During this task, I performed a security assessment of OWASP Juice Shop using OWASP ZAP and Burp Suite.  
 
+**Key Findings:**
+- **SQL Injection (Login Bypass)** – Critical  
+- **Stored XSS (Contact Us Form)** – High  
+- **Multiple issues detected by automated ZAP scan** – Medium & Low severity  
+
+**Deliverables:**
+- [Security Report (PDF)](report.pdf)  
+- [OWASP ZAP Scan Report (HTML)](zap_scan.html)  
+- [OWASP Top 10 Checklist](owasp_top10_checklist.md)  
+- [Screenshots Evidence](screenshots/)  
+ 
 ## Notes
 All testing performed on local, authorized test applications only.
